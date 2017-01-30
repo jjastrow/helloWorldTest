@@ -3,15 +3,10 @@
  */
 class Team {
     String teamName;
-
+    int teamIdentifier;
     String headCoachName;
-    String assistantCoachName;
+    String assistantCoaches[];
     String pitchingCoach;
-
-    public final String[] coaches = {"head","assistant","pitching"};
-
-
-    final int teamNumber = 13;
     String mascot;
     boolean isAmericanLeague;
     boolean isNationalLeague;
